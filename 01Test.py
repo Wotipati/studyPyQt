@@ -1,27 +1,16 @@
-#!/usr/bin/env python3
-
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 import sys
-from PyQt5.QtWidgets import *
+from PyQt5.QtWidgets import  *
 
 
-class MainWindow(QWidget):
-    def __init__(self, parent=None):
-        super(MainWindow, self).__init__(parent)
-
-        button = QPushButton('button')
-
-        layout = QGridLayout()
-        layout.addWidget(button)
-        self.setLayout(layout)
-        self.setWindowTitle("Button")
-
-
-if __name__ == '__main__':
+def main():
     app = QApplication(sys.argv)
-    main_window = MainWindow()
-
-    main_window.show()
+    w = QWidget()
+    w.resize(250, 150)
+    w.setWindowTitle('Window01')
+    w.show()
     sys.exit(app.exec_())
 
-
-    main.window
+if __name__ == '__main__':
+    main()
