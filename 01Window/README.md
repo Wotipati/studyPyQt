@@ -2,9 +2,12 @@
 
 ### QtWidgets
 - Widgetを管理するモジュール
-  - WidgetはGUIのインターフェース部分の総称
+- Widgetはウィンドウ、ボタン、スライドバーなどGUIのインターフェース部分の総称
+- Widgetの中にWidjetを埋め込める
+    - ウィンドウのWidjetにさらにボタンのWidjetを埋め込んでGUIを作成できる
 
 #### `QApplication(sys.argv)`
+- アプリケーションオブジェクトを作成
 - QtのGUIプログラム全体をコントロール
 - コマンドライン引数を要求するので`sys.argv`を渡す
 
