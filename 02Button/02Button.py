@@ -17,14 +17,14 @@ class Button(QMainWindow):
 
         self.setToolTip('this is <b>window widget<b>')
 
-        quitButton = QPushButton("quit", self)
-        quitButton.clicked.connect(QCoreApplication.instance().quit)
-        quitButton.resize(quitButton.sizeHint())
-        quitButton.move(20, 50)
-        quitButton.setToolTip('You can quit this app')
+        quit_button = QPushButton("quit", self)
+        quit_button.clicked.connect(QCoreApplication.instance().quit)
+        quit_button.resize(quit_button.sizeHint())
+        quit_button.move(20, 50)
+        quit_button.setToolTip('You can quit this app')
 
         statusButton = QPushButton("myFirstButton", self)
-        statusButton.clicked.connect(self.statusButtonClicked)
+        statusButton.clicked.connect(self.button_clicked)
         statusButton.resize(statusButton.sizeHint())
 
         self.statusBar()
@@ -33,7 +33,7 @@ class Button(QMainWindow):
         self.setWindowTitle('myFirstButton')
         self.show()
 
-    def statusButtonClicked(self):
+    def button_clicked(self):
         sender = self.sender()
         self.statusBar().showMessage(sender.text() + ' is pushed')
 
