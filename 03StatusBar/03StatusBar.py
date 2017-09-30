@@ -10,9 +10,13 @@ class StatusBar(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.initUI()
+        self.init_ui()
 
-    def initUI(self):
+        self.timer = QTimer(self)
+        self.timer.timeout.connect(self.time_draw)
+        self.timer.start(10)
+
+    def init_ui(self):
 
         QToolTip.setFont(QFont('SansSerif', 10))
 
@@ -24,17 +28,13 @@ class StatusBar(QMainWindow):
 
         self.statusBar()
 
-        timer = QTimer()
-        timer.timeout.connect(self.time_draw)
-        timer.start(1000)
-
         self.setGeometry(200, 300, 200, 150)
         self.setWindowTitle('Status Bar')
         self.show()
 
     def time_draw(self):
         t = datetime.datetime.today()
-        t_str = t.strftime("%Y-%m-%d %H:%M:%S")
+        t_str = t.strftime("%Y-%m-%d %H:%M:%S:%f")
         self.statusBar().showMessage(t_str)
 
 

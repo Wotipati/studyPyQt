@@ -9,9 +9,9 @@ class Button(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.initUI()
+        self.init_ui()
 
-    def initUI(self):
+    def init_ui(self):
 
         QToolTip.setFont(QFont('SansSerif', 10))
 
@@ -23,9 +23,9 @@ class Button(QMainWindow):
         quit_button.move(20, 50)
         quit_button.setToolTip('You can quit this app')
 
-        statusButton = QPushButton("myFirstButton", self)
-        statusButton.clicked.connect(self.button_clicked)
-        statusButton.resize(statusButton.sizeHint())
+        status_button = QPushButton("myFirstButton", self)
+        status_button.clicked.connect(self.button_clicked)
+        status_button.resize(status_button.sizeHint())
 
         self.statusBar()
 
