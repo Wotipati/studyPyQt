@@ -3,7 +3,7 @@
 #### QMainWindow.statusBar
 - widgetのステータスバー領域に関するクラス
 
-##### .showMessage(str)
+##### `.showMessage(str)`
 - 設置されたステータスバーに文字を表示する
 
 ---
