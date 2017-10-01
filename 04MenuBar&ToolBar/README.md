@@ -27,6 +27,10 @@
 
 ##### MenuBarへの配置
 ```python:sample
+  from PyQt5.QtWidgets import QMainWindow, QApplication, QAction, QStyle
+  from PyQt5.QtCore import QCoreApplication
+
+
   # アイコンの設定
   exit_gui = QApplication.style().standardIcon(QStyle.SP_TitleBarCloseButton)
   # QActionオブジェクトの作成
@@ -45,6 +49,10 @@
 
 ##### ToolBarへの配置
 ```python:sample
+  from PyQt5.QtWidgets import QMainWindow, QApplication, QAction, QStyle
+  from PyQt5.QtCore import QCoreApplication
+
+
   exit_gui = QApplication.style().standardIcon(QStyle.SP_TitleBarCloseButton)
   exit_action = QAction(exit_gui, '&Exit', self)
   exit_action.triggered.connect(QCoreApplication.instance().quit)

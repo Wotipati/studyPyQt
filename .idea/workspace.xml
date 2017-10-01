@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29906836-7665-4add-9e4f-d544430836f4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04MenuBar&amp;ToolBar/04MenuBar&amp;ToolBar.py" afterPath="$PROJECT_DIR$/04MenuBar&amp;ToolBar/04MenuBar&amp;ToolBar.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04MenuBar&amp;ToolBar/README.md" afterPath="$PROJECT_DIR$/04MenuBar&amp;ToolBar/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +19,9 @@
       <file leaf-file-name="04MenuBar&amp;ToolBar.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04MenuBar&amp;ToolBar/04MenuBar&amp;ToolBar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="5" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="37" selection-end-column="42" />
-              <folding>
-                <element signature="e#24#34#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -33,31 +30,11 @@
         <entry file="file://$PROJECT_DIR$/04MenuBar&amp;ToolBar/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="572">
-                <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <first_editor relative-caret-position="442">
+                <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="03StatusBar.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03StatusBar/03StatusBar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="76" lean-forward="true" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02Button.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02Button/02Button.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="76" lean-forward="true" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -354,9 +331,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -383,9 +358,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -524,14 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03StatusBar/03StatusBar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="76" lean-forward="true" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02Button/02Button.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -542,19 +507,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04MenuBar&amp;ToolBar/04MenuBar&amp;ToolBar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="5" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="37" selection-end-column="42" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03StatusBar/03StatusBar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="76" lean-forward="true" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/04MenuBar&amp;ToolBar/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="572">
-            <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <first_editor relative-caret-position="442">
+            <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
