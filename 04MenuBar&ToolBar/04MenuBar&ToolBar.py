@@ -13,7 +13,7 @@ class Bars(QMainWindow):
     def init_ui(self):
 
         exit_gui = QApplication.style().standardIcon(QStyle.SP_TitleBarCloseButton)
-        exit_action = QAction(exit_gui, '&Exit', self)
+        exit_action = QAction(exit_gui, 'Exit', self)
         exit_action.setShortcut('Ctrl+Q')
         exit_action.setStatusTip('Exit Application')
         exit_action.triggered.connect(QCoreApplication.instance().quit)
@@ -27,7 +27,7 @@ class Bars(QMainWindow):
         self.statusBar()
 
         menubar = self.menuBar()
-        file_menu = menubar.addMenu('&File')
+        file_menu = menubar.addMenu('File')
         file_menu.addAction(exit_action)
         file_menu.addAction(qt_info_action)
 
