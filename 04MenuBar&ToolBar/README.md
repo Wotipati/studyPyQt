@@ -26,7 +26,7 @@
 
 
 ##### MenuBarへの配置
-```python:sample
+```py3:sample
   from PyQt5.QtWidgets import QMainWindow, QApplication, QAction, QStyle
   from PyQt5.QtCore import QCoreApplication
 
@@ -48,7 +48,7 @@
 
 
 ##### ToolBarへの配置
-```python:sample
+```python3:sample
   from PyQt5.QtWidgets import QMainWindow, QApplication, QAction, QStyle
   from PyQt5.QtCore import QCoreApplication
 
