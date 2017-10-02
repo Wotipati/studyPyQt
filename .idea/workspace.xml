@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29906836-7665-4add-9e4f-d544430836f4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PyQtTraining.iml" afterPath="$PROJECT_DIR$/.idea/PyQtTraining.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/06Slider/06Slider.py" afterPath="$PROJECT_DIR$/06Slider/06Slider.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,8 +32,8 @@
       <file leaf-file-name="06Slider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/06Slider/06Slider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="50" column="64" lean-forward="true" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="64" />
+            <state relative-caret-position="664">
+              <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
               <folding>
                 <element signature="e#25#35#0" expanded="true" />
               </folding>
@@ -67,10 +66,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>statusButtonClicked</find>
+      <find>/pixmap/</find>
+      <find>orange</find>
     </findStrings>
     <replaceStrings>
       <replace>quit_button</replace>
       <replace>button_clicked</replace>
+      <replace>/heatMap/</replace>
+      <replace>color</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -177,12 +180,6 @@
               <item name="PyQtTraining" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyQtTraining" type="462c0819:PsiDirectoryNode" />
               <item name="06Slider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PyQtTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyQtTraining" type="462c0819:PsiDirectoryNode" />
-              <item name="06Slider" type="462c0819:PsiDirectoryNode" />
-              <item name="pixmap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -702,8 +699,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/06Slider/06Slider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="50" column="64" lean-forward="true" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="64" />
+        <state relative-caret-position="664">
+          <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
           <folding>
             <element signature="e#25#35#0" expanded="true" />
           </folding>

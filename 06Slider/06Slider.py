@@ -12,28 +12,34 @@ class Slider(QMainWindow):
         super().__init__()
 
         self.color_slider = QSlider(Qt.Horizontal, self)
-        self.label = QLabel(self)
+        self.color_label = QLabel(self)
         self.main_widget = QWidget(self)
         self.setCentralWidget(self.main_widget)
         self.main_layout = QVBoxLayout()
 
-        self.heat_maps_path = ['./pixmap/orange.png', './pixmap/orange.png', './pixmap/orange.png', './pixmap/orange.png',
-                            './pixmap/orange.png', './pixmap/orange.png', './pixmap/orange.png', './pixmap/orange.png',
-                            './pixmap/orange.png', './pixmap/orange.png']
+        self.heat_maps_path = ['./heatMap/color0.png', './heatMap/color1.png', './heatMap/color2.png',
+                               './heatMap/color3.png', './heatMap/color4.png', './heatMap/color5.png',
+                               './heatMap/color6.png', './heatMap/color7.png', './heatMap/color8.png',
+                               './heatMap/color9.png']
+
+        self.heat_map_pix = []
 
         self.init_ui()
 
     def init_ui(self):
+        for heat_map_path in self.heat_maps_path:
+            pixmap = QPixmap(heat_map_path)
+            pixmap_resized = pixmap.scaled(129, 16)
+            self.heat_map_pix.append(pixmap_resized)
+
         self.color_slider.setFocusPolicy(Qt.NoFocus)
         self.color_slider.valueChanged[int].connect(self.change_value)
 
-        pixmap = QPixmap('./pixmap/orange.png')
-        pixmap_resized = pixmap.scaled(128, 64)
-        self.label.setPixmap(pixmap_resized)
+        self.color_label.setPixmap(self.heat_map_pix[0])
 
         color_slider_layout = QHBoxLayout()
         color_slider_layout.addWidget(self.color_slider)
-        color_slider_layout.addWidget(self.label)
+        color_slider_layout.addWidget(self.color_label)
 
         exit_action = QAction(QIcon('./icon/exit.png'), '&Exit', self)
         exit_action.setShortcut('Ctrl+Q')
@@ -51,17 +57,10 @@ class Slider(QMainWindow):
         self.show()
 
     def change_value(self, value):
-        if value == 0:
-            self.label.setPixmap(QPixmap('./pixmap/orange.png'))
-
-        elif value > 0 and value <= 30:
-            self.label.setPixmap(QPixmap('yellow.png'))
-
-        elif value > 30 and value < 80:
-            self.label.setPixmap(QPixmap('green.png'))
-
-        else:
-            self.label.setPixmap(QPixmap('blue.png'))
+        for i, pixmap in enumerate(self.heat_map_pix, 1):
+            if (i-1)*10 <= value and value < i*10:
+                self.color_label.setPixmap(pixmap)
+                break
 
 
 def main():
