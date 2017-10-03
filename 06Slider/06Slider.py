@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from PyQt5.QtWidgets import QMainWindow, QApplication, QPushButton, QWidget, QSlider, QLabel, QStyle, QAction, QVBoxLayout, QHBoxLayout
+from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QSlider, QLabel, QAction, QVBoxLayout,\
+                            QHBoxLayout, QLCDNumber, QLineEdit
 from PyQt5.QtCore import Qt, QCoreApplication
 from PyQt5.QtGui import QPixmap, QIcon
 
@@ -16,6 +17,7 @@ class Slider(QMainWindow):
         self.main_widget = QWidget(self)
         self.setCentralWidget(self.main_widget)
         self.main_layout = QVBoxLayout()
+        self.text_box = QLineEdit()
 
         self.heat_maps_path = ['./heatMap/color0.png', './heatMap/color1.png', './heatMap/color2.png',
                                './heatMap/color3.png', './heatMap/color4.png', './heatMap/color5.png',
@@ -41,6 +43,37 @@ class Slider(QMainWindow):
         color_slider_layout.addWidget(self.color_slider)
         color_slider_layout.addWidget(self.color_label)
 
+        lcd = QLCDNumber(self)
+        counter_slider = QSlider(Qt.Horizontal, self)
+        counter_slider.valueChanged.connect(lcd.display)
+
+        #self.color_slider.valueChanged.connect(counter_slider.setValue)
+        counter_slider.valueChanged.connect(self.color_slider.setValue)
+
+        counter_layout = QVBoxLayout()
+        counter_layout.addWidget(lcd)
+        counter_layout.addWidget(counter_slider)
+
+        large_slider = QSlider(Qt.Horizontal)
+        large_slider_label = QLabel('(yen)')
+        large_slider.setRange(0, 1000)
+        large_slider.setValue(100)
+        large_slider.setTickPosition(QSlider.TicksBelow)
+        large_slider.valueChanged.connect(self.draw_large_number)
+
+        large_slider_layout = QHBoxLayout()
+        large_slider_layout.addWidget(large_slider)
+        large_slider_layout.addWidget(large_slider_label)
+
+        text_box_layout = QHBoxLayout()
+        text_box_label = QLabel('(yen)')
+        text_box_layout.addWidget(self.text_box)
+        text_box_layout.addWidget(text_box_label)
+
+        yen_slider_layout = QVBoxLayout()
+        yen_slider_layout.addLayout(large_slider_layout)
+        yen_slider_layout.addLayout(text_box_layout)
+
         exit_action = QAction(QIcon('./icon/exit.png'), '&Exit', self)
         exit_action.setShortcut('Ctrl+Q')
         exit_action.setStatusTip('Exit Application')
@@ -50,6 +83,8 @@ class Slider(QMainWindow):
         toolbar.addAction(exit_action)
 
         self.main_layout.addLayout(color_slider_layout)
+        self.main_layout.addLayout(counter_layout)
+        self.main_layout.addLayout(yen_slider_layout)
         self.main_widget.setLayout(self.main_layout)
 
         self.setGeometry(300, 300, 280, 170)
@@ -61,6 +96,9 @@ class Slider(QMainWindow):
             if (i-1)*10 <= value and value < i*10:
                 self.color_label.setPixmap(pixmap)
                 break
+
+    def draw_large_number(self, value):
+        self.text_box.setText(str(value))
 
 
 def main():
