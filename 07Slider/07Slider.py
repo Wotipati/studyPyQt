@@ -87,7 +87,7 @@ class Slider(QMainWindow):
         self.main_layout.addLayout(yen_slider_layout)
         self.main_widget.setLayout(self.main_layout)
 
-        self.setGeometry(300, 300, 280, 170)
+        self.setGeometry(200, 300, 500, 400)
         self.setWindowTitle('slider')
         self.show()
 
