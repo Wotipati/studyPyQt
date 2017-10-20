@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QSlider, QLabel, QAction, QVBoxLayout,\
-                            QHBoxLayout, QLCDNumber, QLineEdit
-from PyQt5.QtCore import Qt, QCoreApplication
-from PyQt5.QtGui import QPixmap, QIcon
+from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QLabel, QAction, QVBoxLayout, QHBoxLayout,\
+                            QLineEdit, QTextEdit, QPushButton
+from PyQt5.QtCore import QCoreApplication
+from PyQt5.QtGui import QIcon
 
 
 class Textbox(QMainWindow):
@@ -15,17 +15,27 @@ class Textbox(QMainWindow):
         self.main_widget = QWidget(self)
         self.setCentralWidget(self.main_widget)
         self.main_layout = QVBoxLayout()
-        self.text_box = QLineEdit()
+        self.text_box_layout = QHBoxLayout()
+        self.main_text_box = QLineEdit()
+        self.sub_text_box = QTextEdit()
         self.label = QLabel()
+        self.label_history = QLabel('history')
 
         self.init_ui()
 
     def init_ui(self):
 
-        self.text_box.textChanged.connect(self.change_text)
+        add_button = QPushButton("Add", self)
+        add_button.clicked.connect(self.add_history)
 
-        self.main_layout.addWidget(self.text_box)
+        self.main_text_box.textChanged.connect(self.change_text)
+
+        self.text_box_layout.addWidget(self.main_text_box)
+        self.text_box_layout.addWidget(add_button)
+        self.main_layout.addLayout(self.text_box_layout)
         self.main_layout.addWidget(self.label)
+        self.main_layout.addWidget(self.label_history)
+        self.main_layout.addWidget(self.sub_text_box)
         self.main_widget.setLayout(self.main_layout)
 
         exit_action = QAction(QIcon('./icon/exit.png'), '&Exit', self)
@@ -43,6 +53,10 @@ class Textbox(QMainWindow):
     def change_text(self, text):
         self.label.setText(text)
         self.label.adjustSize()
+
+    def add_history(self):
+        self.sub_text_box.append(self.main_text_box.text())
+        self.main_text_box.clear()
 
 
 def main():
