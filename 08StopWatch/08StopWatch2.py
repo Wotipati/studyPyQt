@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QPushButton, QLabel, QAction, QVBoxLayout,\
-                            QTextEdit
+from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QPushButton, QLabel, QAction, QVBoxLayout
 from PyQt5.QtCore import QCoreApplication, QTimer
-from PyQt5.QtGui import QIcon, QFont
+from PyQt5.QtGui import QIcon
 
 
 class Stopwatch(QMainWindow):
