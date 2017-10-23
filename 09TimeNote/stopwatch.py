@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QPushButton, QAction, QVBoxLayout,\
-                            QLCDNumber, QTextEdit
-from PyQt5.QtCore import QCoreApplication, QTimer
-from PyQt5.QtGui import QIcon
+from PyQt5.QtWidgets import QWidget, QPushButton, QVBoxLayout, QHBoxLayout, QLabel
+from PyQt5.QtCore import QTimer
+from PyQt5.QtGui import QIcon, QPixmap, QFont
 
 
-class Stopwatch(QMainWindow):
+class Stopwatch(QWidget):
 
     def __init__(self):
         super().__init__()
@@ -17,13 +16,27 @@ class Stopwatch(QMainWindow):
         self.sec  = 0
         self.min  = 0
         self.hour = 0
-        self.time_label = QLabel(self)
+        self.label_time = QLabel(self)
+
+        self.layout_main = QVBoxLayout()
 
         self.init_ui()
 
     def init_ui(self):
+        font_time = QFont()
+        font_time.setPointSize(28)
+        self.label_time.setFont(font_time)
+
+        layout_timer = QHBoxLayout()
+        icon_timer = QLabel()
+        pixmap_timer = QPixmap('./icon/stopwatch.png')
+        pixmap_timer_resized = pixmap_timer.scaled(100, 100)
+        icon_timer.setPixmap(pixmap_timer_resized)
+        layout_timer.addWidget(icon_timer)
+        layout_timer.addWidget(self.label_time)
+        
         time = "<h1>{0:02d}:{1:02d}:{2:02d}</h1>".format(self.hour, self.min, self.sec)
-        self.time_label.setText(str(time))
+        self.label_time.setText(str(time))
 
         button_start = QPushButton("start", self)
         button_start.clicked.connect(self.timer_start)
@@ -34,25 +47,13 @@ class Stopwatch(QMainWindow):
         button_reset = QPushButton("reset", self)
         button_reset.clicked.connect(self.timer_reset)
 
-        layout_main = QVBoxLayout()
-        layout_main.addWidget(self.time_label)
-        layout_main.addWidget(button_start)
-        layout_main.addWidget(button_stop)
-        layout_main.addWidget(button_reset)
+        layout_button = QHBoxLayout()
+        layout_button.addWidget(button_start)
+        layout_button.addWidget(button_stop)
+        layout_button.addWidget(button_reset)
 
-        self.main_widget.setLayout(layout_main)
-
-        exit_action = QAction(QIcon('./icon/exit.png'), '&Exit', self)
-        exit_action.setShortcut('Ctrl+Q')
-        exit_action.setStatusTip('Exit Application')
-        exit_action.triggered.connect(QCoreApplication.instance().quit)
-
-        toolbar = self.addToolBar('&Toolbar')
-        toolbar.addAction(exit_action)
-
-        self.setGeometry(500, 500, 300, 200)
-        self.setWindowTitle('stop watch')
-        self.show()
+        self.layout_main.addLayout(layout_timer)
+        self.layout_main.addLayout(layout_button)
 
     def timer_start(self):
         self.timer.start(1000)
@@ -64,7 +65,7 @@ class Stopwatch(QMainWindow):
         self.hour = 00
 
         time = "<h1>{0:02d}:{1:02d}:{2:02d}</h1>".format(self.hour, self.min, self.sec)
-        self.time_label.setText(time)
+        self.label_time.setText(time)
 
     def time_count(self):
         if self.sec < 59:
@@ -81,14 +82,4 @@ class Stopwatch(QMainWindow):
                 self.sec = 00
 
         time = "<h1>{0:02d}:{1:02d}:{2:02d}</h1>".format(self.hour, self.min, self.sec)
-        self.time_label.setText(time)
-
-
-def main():
-    app = QApplication(sys.argv)
-    window = Stopwatch()
-    sys.exit(app.exec_())
-
-
-if __name__ == '__main__':
-    main()
+        self.label_time.setText(time)
