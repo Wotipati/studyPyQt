@@ -22,7 +22,6 @@ class Timenote(QMainWindow):
         self.sec  = 0
         self.min  = 0
         self.hour = 0
-        self.start_time = None
         self.lcd = QLCDNumber(self)
 
         self.init_ui()
