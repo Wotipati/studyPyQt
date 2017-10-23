@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="29906836-7665-4add-9e4f-d544430836f4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08StopWatch/081StopWatch2.py" afterPath="$PROJECT_DIR$/08StopWatch/081StopWatch2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08StopWatch/08StopWatch.py" afterPath="$PROJECT_DIR$/08StopWatch/08StopWatch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08StopWatch/README.md" afterPath="$PROJECT_DIR$/08StopWatch/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08StopWatch/08StopWatch2.py" afterPath="$PROJECT_DIR$/08StopWatch/08StopWatch2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +21,7 @@
       <file leaf-file-name="04MenuBar&amp;ToolBar.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04MenuBar&amp;ToolBar/04MenuBar&amp;ToolBar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="323">
               <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
@@ -58,8 +57,8 @@
       <file leaf-file-name="08StopWatch.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08StopWatch/08StopWatch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="536">
+              <caret line="96" column="22" lean-forward="false" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
               <folding>
                 <element signature="e#25#35#0" expanded="true" />
               </folding>
@@ -67,12 +66,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/08StopWatch/README.md">
+      <file leaf-file-name="08StopWatch2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/08StopWatch/08StopWatch2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="93" column="24" lean-forward="true" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="09TimeNote.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09TimeNote/09TimeNote.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09TimeNote/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="221">
-                <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -80,13 +99,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="081StopWatch2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08StopWatch/081StopWatch2.py">
+      <file leaf-file-name="stopWatch.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/09TimeNote/stopWatch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="527">
+              <caret line="94" column="32" lean-forward="true" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
               <folding>
-                <element signature="e#25#35#0" expanded="true" />
+                <element signature="e#1#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,8 +155,10 @@
         <option value="$PROJECT_DIR$/08TimeNote/README.md" />
         <option value="$PROJECT_DIR$/08TimeNote/timenote.py" />
         <option value="$PROJECT_DIR$/08StopWatch/README.md" />
-        <option value="$PROJECT_DIR$/08StopWatch/08StopWatch.py" />
         <option value="$PROJECT_DIR$/08StopWatch/081StopWatch2.py" />
+        <option value="$PROJECT_DIR$/09TimeNote/stopWatch.py" />
+        <option value="$PROJECT_DIR$/08StopWatch/08StopWatch.py" />
+        <option value="$PROJECT_DIR$/08StopWatch/08StopWatch2.py" />
       </list>
     </option>
   </component>
@@ -232,6 +253,11 @@
               <item name="PyQtTraining" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyQtTraining" type="462c0819:PsiDirectoryNode" />
               <item name="08StopWatch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyQtTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyQtTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="09TimeNote" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -418,25 +444,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04MenuBar&amp;ToolBar/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/05Layout/README.md" />
-    <entry file="file://$PROJECT_DIR$/04MenuBar&amp;ToolBar/04MenuBar&amp;ToolBar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05Layout/05Layout.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -615,16 +622,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/06Slider/06Slider.py" />
     <entry file="file://$PROJECT_DIR$/06Slider/README.md" />
-    <entry file="file://$PROJECT_DIR$/04MenuBar&amp;ToolBar/04MenuBar&amp;ToolBar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/07Slider/07Slider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1513">
@@ -672,23 +669,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08StopWatch/08StopWatch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="e#25#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/08StopWatch/081StopWatch2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#35#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -700,6 +685,63 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04MenuBar&amp;ToolBar/04MenuBar&amp;ToolBar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09TimeNote/09TimeNote.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09TimeNote/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09TimeNote/stopWatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="94" column="32" lean-forward="true" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08StopWatch/08StopWatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="96" column="22" lean-forward="false" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08StopWatch/08StopWatch2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="93" column="24" lean-forward="true" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

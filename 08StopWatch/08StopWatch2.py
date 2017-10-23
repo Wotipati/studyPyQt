@@ -7,7 +7,7 @@ from PyQt5.QtCore import QCoreApplication, QTimer
 from PyQt5.QtGui import QIcon, QFont
 
 
-class Timenote(QMainWindow):
+class Stopwatch(QMainWindow):
 
     def __init__(self):
         super().__init__()
@@ -91,7 +91,7 @@ class Timenote(QMainWindow):
 
 def main():
     app = QApplication(sys.argv)
-    window = Timenote()
+    window = Stopwatch()
     sys.exit(app.exec_())
 
 

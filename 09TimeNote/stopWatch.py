@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 
 import sys
 from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QPushButton, QAction, QVBoxLayout,\
