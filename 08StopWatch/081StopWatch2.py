@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QPushButton, QAction, QVBoxLayout,\
-                            QLCDNumber, QTextEdit
+from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QPushButton, QLabel, QAction, QVBoxLayout,\
+                            QTextEdit
 from PyQt5.QtCore import QCoreApplication, QTimer
-from PyQt5.QtGui import QIcon
+from PyQt5.QtGui import QIcon, QFont
 
 
 class Timenote(QMainWindow):
@@ -23,14 +23,13 @@ class Timenote(QMainWindow):
         self.min  = 0
         self.hour = 0
         self.start_time = None
-        self.lcd = QLCDNumber(self)
+        self.time_label = QLabel(self)
 
         self.init_ui()
 
     def init_ui(self):
-        time = "{0:02d}:{1:02d}:{2:02d}".format(self.hour, self.min, self.sec)
-        self.lcd.setDigitCount(len(time))
-        self.lcd.display(time)
+        time = "<h1>{0:02d}:{1:02d}:{2:02d}</h1>".format(self.hour, self.min, self.sec)
+        self.time_label.setText(str(time))
 
         button_start = QPushButton("start", self)
         button_start.clicked.connect(self.timer_start)
@@ -42,7 +41,7 @@ class Timenote(QMainWindow):
         button_reset.clicked.connect(self.timer_reset)
 
         layout_main = QVBoxLayout()
-        layout_main.addWidget(self.lcd)
+        layout_main.addWidget(self.time_label)
         layout_main.addWidget(button_start)
         layout_main.addWidget(button_stop)
         layout_main.addWidget(button_reset)
@@ -66,13 +65,12 @@ class Timenote(QMainWindow):
 
     def timer_reset(self):
         self.timer.stop()
-        self.sec  = 0
-        self.min  = 0
-        self.hour = 0
+        self.sec  = 00
+        self.min  = 00
+        self.hour = 00
 
-        time = "{0:02d}:{1:02d}:{2:02d}".format(self.hour, self.min, self.sec)
-        self.lcd.setDigitCount(len(time))
-        self.lcd.display(time)
+        time = "<h1>{0:02d}:{1:02d}:{2:02d}</h1>".format(self.hour, self.min, self.sec)
+        self.time_label.setText(time)
 
     def time_count(self):
         if self.sec < 59:
@@ -80,17 +78,16 @@ class Timenote(QMainWindow):
 
         else:
             if self.min < 59:
-                self.sec = 0
+                self.sec = 00
                 self.min += 1
 
             elif self.min == 59:
                 self.hour += 1
-                self.min = 0
-                self.sec = 0
+                self.min = 00
+                self.sec = 00
 
-        time = "{0:02d}:{1:02d}:{2:02d}".format(self.hour, self.min, self.sec)
-        self.lcd.setDigitCount(len(time))
-        self.lcd.display(time)
+        time = "<h1>{0:02d}:{1:02d}:{2:02d}</h1>".format(self.hour, self.min, self.sec)
+        self.time_label.setText(time)
 
 
 def main():
