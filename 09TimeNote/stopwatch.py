@@ -24,7 +24,7 @@ class Stopwatch(QWidget):
 
     def init_ui(self):
         font_time = QFont()
-        font_time.setPointSize(28)
+        font_time.setPointSize(38)
         self.label_time.setFont(font_time)
 
         layout_timer = QHBoxLayout()
@@ -34,8 +34,8 @@ class Stopwatch(QWidget):
         icon_timer.setPixmap(pixmap_timer_resized)
         layout_timer.addWidget(icon_timer)
         layout_timer.addWidget(self.label_time)
-        
-        time = "<h1>{0:02d}:{1:02d}:{2:02d}</h1>".format(self.hour, self.min, self.sec)
+
+        time = "{0:02d}:{1:02d}:{2:02d}".format(self.hour, self.min, self.sec)
         self.label_time.setText(str(time))
 
         button_start = QPushButton("start", self)
@@ -64,7 +64,7 @@ class Stopwatch(QWidget):
         self.min  = 00
         self.hour = 00
 
-        time = "<h1>{0:02d}:{1:02d}:{2:02d}</h1>".format(self.hour, self.min, self.sec)
+        time = "{0:02d}:{1:02d}:{2:02d}".format(self.hour, self.min, self.sec)
         self.label_time.setText(time)
 
     def time_count(self):
@@ -81,5 +81,5 @@ class Stopwatch(QWidget):
                 self.min = 00
                 self.sec = 00
 
-        time = "<h1>{0:02d}:{1:02d}:{2:02d}</h1>".format(self.hour, self.min, self.sec)
+        time = "{0:02d}:{1:02d}:{2:02d}".format(self.hour, self.min, self.sec)
         self.label_time.setText(time)
