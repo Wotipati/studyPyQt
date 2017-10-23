@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29906836-7665-4add-9e4f-d544430836f4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/09TimeNote/icon/stopwatch.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09TimeNote/icon/stopwatch.png" afterPath="$PROJECT_DIR$/09TimeNote/icon/stopwatch.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09TimeNote/09TimeNote.py" afterPath="$PROJECT_DIR$/09TimeNote/09TimeNote.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09TimeNote/stopwatch.py" afterPath="$PROJECT_DIR$/09TimeNote/stopwatch.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +20,7 @@
       <file leaf-file-name="04MenuBar&amp;ToolBar.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04MenuBar&amp;ToolBar/04MenuBar&amp;ToolBar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="289">
               <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
@@ -47,7 +44,7 @@
       <file leaf-file-name="06TextBox.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06TextBox/06TextBox.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="187">
               <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
               <folding>
                 <element signature="e#25#35#0" expanded="true" />
@@ -56,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="09TimeNote.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="09TimeNote.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/09TimeNote/09TimeNote.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
               <folding>
                 <element signature="e#25#35#0" expanded="true" />
               </folding>
@@ -68,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stopwatch.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stopwatch.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/09TimeNote/stopwatch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="408">
               <caret line="26" column="31" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="36" />
               <folding>
                 <element signature="e#25#107#0" expanded="true" />
@@ -129,16 +126,16 @@
         <option value="$PROJECT_DIR$/09TimeNote/stopWatch.py" />
         <option value="$PROJECT_DIR$/08StopWatch/08StopWatch2.py" />
         <option value="$PROJECT_DIR$/08StopWatch/08StopWatch.py" />
-        <option value="$PROJECT_DIR$/09TimeNote/09TimeNote.py" />
         <option value="$PROJECT_DIR$/09TimeNote/stopwatch.py" />
+        <option value="$PROJECT_DIR$/09TimeNote/09TimeNote.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2133" />
-    <option name="y" value="-4" />
-    <option name="width" value="1274" />
-    <option name="height" value="721" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="1977" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -183,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -235,7 +233,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -381,17 +378,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2133" y="-4" width="1865" height="1092" extended-state="6" />
+    <frame x="1977" y="24" width="1855" height="1056" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2259796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.107361965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23312883" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -599,11 +596,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/05Layout/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="238">
@@ -612,23 +604,20 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08TimeNote/timenote.py" />
-    <entry file="file://$PROJECT_DIR$/08TimeNote/README.md" />
-    <entry file="file://$PROJECT_DIR$/08StopWatch/081StopWatch2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/08TimeNote/timenote.py" />
+    <entry file="file://$PROJECT_DIR$/08TimeNote/README.md" />
+    <entry file="file://$PROJECT_DIR$/08StopWatch/081StopWatch2.py" />
     <entry file="file://$PROJECT_DIR$/08StopWatch/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="221">
             <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -636,7 +625,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04MenuBar&amp;ToolBar/04MenuBar&amp;ToolBar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="289">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#24#34#0" expanded="true" />
@@ -659,27 +648,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09TimeNote/stopWatch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/09TimeNote/stopWatch.py" />
     <entry file="file://$PROJECT_DIR$/08StopWatch/08StopWatch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding>
-            <element signature="e#25#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -687,26 +665,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding>
-            <element signature="e#25#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/06TextBox/06TextBox.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="187">
           <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding>
-            <element signature="e#25#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09TimeNote/09TimeNote.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="e#25#35#0" expanded="true" />
           </folding>
@@ -715,10 +680,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/09TimeNote/stopwatch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="408">
           <caret line="26" column="31" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="36" />
           <folding>
             <element signature="e#25#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09TimeNote/09TimeNote.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
