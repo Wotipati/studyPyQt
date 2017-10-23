@@ -15,8 +15,6 @@ class Stopwatch(QMainWindow):
         self.main_widget = QWidget(self)
         self.setCentralWidget(self.main_widget)
 
-        self.time_history = QTextEdit()
-
         self.timer = QTimer(self)
         self.timer.timeout.connect(self.time_count)
         self.sec  = 0
