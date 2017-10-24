@@ -25,7 +25,7 @@ class Timenote(QMainWindow):
         self.init_ui()
 
     def init_ui(self):
-        self.layout_user.addWidget(self.label_now_subject)
+        # self.layout_user.addWidget(self.label_now_subject)
 
         stopwatch = Stopwatch()
         self.layout_user.addLayout(stopwatch.layout_main)
