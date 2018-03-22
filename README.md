@@ -4,7 +4,7 @@ PyQtの使い方を学ぶ際に書いたスクリプトたち。
 
 <br />
 
-学んだ要素を組み合わせて作ったアプリ(自分の活動を記録するアプリ)はこちら  
+学んだ要素を組み合わせて作ったアプリ(自分の活動を記録するアプリ)は[こちら](https://github.com/Wotipati/Nanishita)    
 
 <a href=https://github.com/Wotipati/Nanishita><img width="400" alt="nanishita" src="https://user-images.githubusercontent.com/26996041/33373701-711388ac-d546-11e7-8a3b-670b250e4914.png">
 
